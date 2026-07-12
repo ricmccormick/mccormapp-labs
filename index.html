@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>McCormApp-Labs</title>
+  <link rel="icon" type="image/svg+xml" href="https://raw.githubusercontent.com/ricmccormick/mccormapp-labs/main/favicon.svg"/>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -486,12 +487,29 @@
 
   <nav>
     <a href="#" class="nav-logo">
-      <svg width="72" height="28" viewBox="0 0 72 28" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <polyline points="0,14 10,14 14,3 20,24 25,7 29,14 42,14" stroke="#33FF33" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <polyline points="48,6 60,14 48,22" stroke="#33FF33" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <rect x="63" y="12" width="8" height="3.5" rx="1.75" fill="#33FF33"/>
+      <svg height="58" viewBox="0 0 220 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="McCormApp-Labs logo">
+        <!-- border rect -->
+        <rect x="2" y="2" width="216" height="96" rx="14" stroke="#33FF33" stroke-width="6"/>
+
+        <!-- m — two humps -->
+        <line x1="22" y1="82" x2="22" y2="38" stroke="#33FF33" stroke-width="9" stroke-linecap="round"/>
+        <path d="M22,38 Q22,20 34,20 Q46,20 46,38" stroke="#33FF33" stroke-width="9" stroke-linecap="round" fill="none"/>
+        <line x1="46" y1="82" x2="46" y2="38" stroke="#33FF33" stroke-width="9" stroke-linecap="round"/>
+        <path d="M46,38 Q46,20 58,20 Q70,20 70,38" stroke="#33FF33" stroke-width="9" stroke-linecap="round" fill="none"/>
+        <line x1="70" y1="82" x2="70" y2="38" stroke="#33FF33" stroke-width="9" stroke-linecap="round"/>
+
+        <!-- superscript c -->
+        <text x="87" y="36" font-family="'JetBrains Mono', monospace" font-weight="700" font-size="35" fill="#33FF33" text-anchor="middle">c</text>
+
+        <!-- C — large open arc -->
+        <path d="M128,22 Q104,22 104,52 Q104,82 128,82" stroke="#33FF33" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+        <!-- > chevron -->
+        <polyline points="142,36 160,52 142,68" stroke="#33FF33" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <!-- l -->
+        <line x1="192" y1="18" x2="192" y2="82" stroke="#33FF33" stroke-width="9" stroke-linecap="round"/>
       </svg>
-      <span class="nav-logo-text">M<sup>c</sup>Corm<span class="highlight">App</span>-Labs</span>
     </a>
     <ul class="nav-links">
       <li><a href="#work">// work</a></li>
@@ -503,7 +521,7 @@
   <!-- HERO -->
   <section class="hero" id="home">
     <div class="hero-content">
-      <p class="hero-eyebrow">McCormApp-Labs &mdash; Applications for Humans</p>
+      <p class="hero-eyebrow">Applications for Humans</p>
       <h1>We build software<br>that <span class="accent">actually works.</span></h1>
       <p class="terminal-line">
         <span class="prompt" style="color: var(--dos);">&gt;</span><span id="typed-text" style="color: var(--dos);"></span><span class="cursor" style="background: var(--dos);"></span>
