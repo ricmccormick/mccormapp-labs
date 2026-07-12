@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- background -->
+  <rect width="100" height="100" fill="#0A0A0F"/>
+  <!-- rounded border -->
+  <rect x="4" y="4" width="92" height="92" rx="18" stroke="#33FF33" stroke-width="5"/>
+  <!-- m — two humps, simplified for small size -->
+  <line x1="18" y1="78" x2="18" y2="46" stroke="#33FF33" stroke-width="6" stroke-linecap="round"/>
+  <path d="M18,46 Q18,28 30,28 Q42,28 42,46" stroke="#33FF33" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <line x1="42" y1="78" x2="42" y2="46" stroke="#33FF33" stroke-width="6" stroke-linecap="round"/>
+  <path d="M42,46 Q42,28 54,28 Q66,28 66,46" stroke="#33FF33" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <line x1="66" y1="78" x2="66" y2="46" stroke="#33FF33" stroke-width="6" stroke-linecap="round"/>
+  <!-- superscript c -->
+  <text x="80" y="40" font-family="'JetBrains Mono', monospace" font-weight="500" font-size="28" fill="#33FF33" text-anchor="middle">c</text>
+</svg>
